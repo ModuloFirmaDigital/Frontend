@@ -1,0 +1,75 @@
+/* Estilo para el contenedor del formulario de registro */
+.login-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.login-form h2 {
+    text-align: center;
+    color: #1c3583;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Inputs del formulario */
+.login-form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Etiquetas */
+.login-form .form-label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Select input */
+.login-form select.form-control {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/* Botones */
+.login-form .btn-primary {
+    width: 100%;
+    background-color: #1c3583;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-form .btn-primary:hover {
+    background-color: #14255c;
+}
+
+/* Mensaje de error */
+.login-form .alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Loading state */
+.login-form.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
